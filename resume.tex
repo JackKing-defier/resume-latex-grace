@@ -6,78 +6,96 @@
 \usepackage{zh_CN-Adobefonts_external} % Simplified Chinese Support using external fonts (./fonts/zh_CN-Adobe/)
 \usepackage{linespacing_fix} % disable extra space before next section
 \usepackage{cite}
+\usepackage{setspace}
 \usepackage[colorlinks,linkcolor=blue]{hyperref}
 
 \begin{document}
 \pagenumbering{gobble} % suppress displaying page number
 
 \name{Hao Wang}
-% \centerline{Software Engineer}
-\vspace{2ex}
-\contactInfo{iamhao888@gmail.com}{(+86) 188-2923-6977}{Software Engineer}
- \vspace{0ex}
+ \centerline{Senior Software Engineer}
+\vspace{1ex}
+\contactInfo{iamhao888@gmail.com}{(+65) 8357-7695}{\url{https://github.com/JackKing-defier}}
+ \vspace{-2ex}
  
 \section{\faGraduationCap\ Education}
-\datedsubsection{\textbf{Northwestern Polytechnical University (Project 985)}}{Sep. 2017 -- Apr. 2020}
-\textit{Master of Engineering} in Computer Technology, \textit{\nth{1} Prize} University Graduate Scholarship (Top 15\%)
-\\ Relative courses: Data Mining, Probability and Mathematical Statistics, Matrix Theory, Distributed Computing
-\datedsubsection{\textbf{Northwestern Polytechnical University (Project 985)}}{Sep. 2013 -- Jun. 2017}
-\textit{Bachelor of Engineering} in Software Engineering, \textit{\nth{2} Prize} University Undergraduate Scholarship (Top 30\%)
-\\ Relative courses: Data Structures, Computer Networks, Database Systems, Object-Oriented Programming
+\datedsubsection{\textbf{Northwestern Polytechnical University (Project 985)}}{Sep. 2013 -- Apr. 2020}
+  \textit{Master of Engineering} in Computer Technology, \textit{\nth{1} Prize} University Graduate Scholarship (Top 15\%)
+ 
+ Relative courses: Data Mining, Probability and Mathematical Statistics, Matrix Theory, Distributed Computing.
+
+\vspace{1ex}
+% \datedsubsection{\textbf{Northwestern Polytechnical University (Project 985)}}{Sep. 2013 -- Jun. 2017}
+ \textit{Bachelor of Engineering} in Software Engineering, \textit{\nth{2} Prize} University Undergraduate Scholarship (Top 30\%)
+
+Relative courses: Data Structures, Computer Networks, Database Systems, Object-Oriented Programming.
 
 \section{\faUsers\ Work Experience}
 
-\datedsubsection{\textbf{Java Engineer at Alibaba (Shenzhen) Technology Co., Ltd.}}{Jul. 2021 -- now}
-\begin{itemize}
-  \item Developed the AliExpress site-wide sharing component configuration platform, undertook large-scale marketing shopping festivals such as ``Double Eleven" and ``Black Friday".
-\end{itemize}
+\datedsubsection{\textbf{Senior Software Engineer at  Daraz Singapore Private Limited}}{Oct. 2023 -- now}
 
 \setlength{\parindent}{1em}
-\textit{\textbf{Product Delivery Platform }}
+
+\textit{\textbf{\hspace{1em}Project: Global Campaign Platform for Daraz BU}}
+\begin{itemize}
+  \item Designed and implemented a product building platform channel with Redis, enabling hero product tag integration and personalized recommendations, resulting in a 20\% increase in product discovery.
+    \item Enhanced user experience and boosted sales 15\% by replacing new user discounts with a flexible promotion tag system in the Choice channel, offering relevant deals to all customers.
+    \item Optimized data pool refresh, reduced synchronization time from 24 hours to 1 hour, achieved a over 90\% reduction in data latency, enabled faster insights and decision-making.
+    
+\end{itemize}
+
+\datedsubsection{\textbf{Software Engineer at Alibaba (Shenzhen) Technology Co., Ltd.}}{Jul. 2021 -- Jul. 2023}
+
+\setlength{\parindent}{1em}
+
+
+\textit{\textbf{\hspace{1em}Project: Product Delivery Platform for AliExpress BU}}
 % \datedsubsection{\textbf{Product Delivery Platform }}{Oct. 2022 -- now}
 \begin{itemize}
-  \item Optimized the marketing interface from single invocation to batch invocation, reducing the average service response time by 30\%, and  achieved over 2 million daily active users (DAU).
-    \item Implementing product filtering functionality using the strategy pattern, which has strong extensibility in price values and marketing type strings.
-    \item Developed the PC web version of SpendMore and N dollars for N items in collaboration with multiple teams including Trading, Express, Algorithm, Marketing, and Merchant.
-
+  \item Optimized activity scheduling by using Redis caching and refactored the activity interface to support batch calls, reduced the average service response time by 26\%.
+    \item Designed and implemented product filtering functionality using the strategy pattern, which has strong extensibility in price values and marketing type strings. Reduced the man-days required from 4 to 1.
+%    \item Assumed ownership of the complete development lifecycle, spanning product ideation, design, implementation, testing, deployment, and monitoring. Collaborated extensively with cross-functional teams.
+    
 \end{itemize}
 
-\textit{\textbf{Social Interactive Shopping (GroupBuy, Bargain)}}
+\textit{\textbf{Project: Social Interactive Shopping (GroupBuy, Bargain) for AliExpress BU}}
 % \datedsubsection{\textbf{Social Interactive Shopping (GroupBuy, Bargain)}}{Jul. 2021 -- Sep. 2022}
 \begin{itemize}
-%  \item Based on the distributed architecture of SpringBoot, used Kafka and Redis to implement the receiving and caching of items and activities.  (优化描述，酌情调整或者删掉)
-  \item Implemented mixed deployment of activities for product recommendations in Bargain and GroupBuy business. Incorporated MQ and Redis for seamless persistent storage and concurrent control.
-  \item Achieved a 1:7 sharing diffusion ratio, resulting in 150,000 new users in Bargain,
+ \item Implemented mixed activities data based on cloud-native architecture, used Kafka and Redis to receive and cache items and activities. Obtained 150,000 new users in Bargain and achieved 1:7 sharing diffusion ratio.
+ \item Developed and Maintained the AliExpress site-wide sharing component configuration platform.
+ %, undertook large-scale marketing shopping festivals ``Double Eleven" and ``Black Friday" every year.
+
 \end{itemize}
 
-\datedsubsection{\textbf{vivo Mobile Communication (Shenzhen) Co., Ltd.}}{Apr. 2020 -- Jul. 2021}
+\datedsubsection{\textbf{Java Engineer  at vivo Mobile Communication (Shenzhen) Co., Ltd.}}{Apr. 2020 -- Jul. 2021}
 \begin{itemize}
-  \item Maintained Android Wifi framework, developed a Wifi detection tool based on the 802.11 protocol, which provides real-time display of bandwidth, frequency, signal strength, and firmware version information.
-%  \item Optimizing kernel code to significantly enhance WiFi throughput.(vivo Y33, vivo V21)
-  \item Optimized kernel code to enhance Wifi throughput and accomplished Wifi porting for new smartphones.
+  \item Maintained Android Wifi framework and developed Wifi detection tool in OriginOS (802.11 protocol).
+  \item Led Wifi porting for vivo Y33 and V21 smartphones, optimized Linux kernel to enhance Wifi throughput.
 \end{itemize}
 
-\datedsubsection{\textbf{Graduate Researcher at University (Xi'an, China)}}{Oct. 2018 -- Jul. 2019}
+\datedsubsection{\textbf{Graduate Research Project at Northwestern Polytechnical University}}{Oct. 2018 -- Jul. 2019}
 
 %\setlength{\parindent}{1em}
-\textit{\textbf{\hspace{1em}Location Preserve Blockchain System (Crowdchain)}}
+\textit{\textbf{\hspace{1em}Project: Location Preserve Blockchain System (Crowdchain)}}
 \setlength{\parindent}{0em}
 
 \begin{itemize}
-  \item Developed Ethereum smart contracts to implement multiple scenarios of transfer functions, aiming to achieve location privacy protection. 
+  \item Developed Ethereum smart contracts to implement multiple scenarios of transfer functions, leveraged zero-knowledge proofs to achieve location privacy protection.
   \item Utilized web3j to establish a connection with the Rinkeby network through an Infura hosted node.
-  \item Published paper as 1st author: ``Crowdchain: A location preserve anonymous payment system based on permissioned blockchain", In 2019 IEEE International Conference on Smart Internet of Things (SmartIoT), pp. 227-233. IEEE, 2019.
+  \item Published paper as 1st author: ``Crowdchain: A location preserve anonymous payment system based on permissioned blockchain", In 2019 IEEE International Conference on Smart Internet of Things (SmartIoT).
 \end{itemize}
 
 
-\section{\faTrophy\ Academic Competitions}
+\section{\faTrophy\ Awards}
 \datedline{\textit{\nth{2} Prize}~~Awarded in China Graduate Contest on Smart-city Technology and Creative Design}{Jul. 2018}
 \datedline{\textit{\nth{2} Prize}~~Awarded in China Undergraduate Mathematical Contest in Modeling}{Oct. 2015}
 
+
 \section{\faCogs\ Skills / Interests}
-\begin{itemize}[parsep=0.5ex]
-  \item Skills: Java | Python | Kubernetes | Redis | Kafka | MySQL | Spring | SpringBoot | JVM | Java multithreading 
-  \item Experienced in continuous deployment and delivery within a microservices architecture, leveraging Spring and Spring Boot to develop distributed internet systems.
+\begin{itemize}%[parsep=0.2ex]
+\item Skills: Java | Python | Redis | Kafka | MySQL | Alibaba Cloud | Kubernetes | Spring | Spark | Flink
+%  \item Experienced in continuous deployment and delivery within a microservices architecture, leveraging Spring and Spring Boot to develop distributed internet systems.(融合到skills和前面项目经历)
+\item Interests: Reading | Basketball | Swimming | Gangster movies | Lifelong learning
 \end{itemize}
 
 \end{document}
