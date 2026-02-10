@@ -1,0 +1,107 @@
+% !TEX TS-program = xelatex
+% !TEX encoding = UTF-8 Unicode
+% !Mode:: "TeX:UTF-8"
+
+\documentclass{resume}。   
+\usepackage{zh_CN-Adobefonts_external} % Simplified Chinese Support using external fonts (./fonts/zh_CN-Adobe/)
+\usepackage{linespacing_fix} % disable extra space before next section
+\usepackage{cite}
+\usepackage{setspace}
+\usepackage[colorlinks,linkcolor=blue]{hyperref}
+
+\begin{document}
+\pagenumbering{gobble} % suppress displaying page number
+
+\name{Hao Wang}
+ \centerline{Senior Software Engineer}
+\vspace{1ex}
+\contactInfo{iamhao888@gmail.com}{WeChat +86 18829236977}{\href{https://www.linkedin.com/in/jackkingdefier/}{LinkedIn: Hao Wang}}
+ \vspace{-3ex}
+ 
+\section{\faGraduationCap\ Education}
+\datedsubsection{\textbf{Northwestern Polytechnical University (Project 985)}}{Sep. 2017 -- Apr. 2020}
+  \textit{Master of Engineering} in Computer Technology, \textit{\nth{1} Prize} University Graduate Scholarship (Top 15\%)
+
+ Relative courses: Data Mining, Probability and Mathematical Statistics, Matrix Theory, Distributed Computing.
+
+%\vspace{1ex}
+ \datedsubsection{\textbf{Northwestern Polytechnical University (Project 985)}}{Sep. 2013 -- Jun. 2017}
+ \textit{Bachelor of Engineering} in Software Engineering, \textit{\nth{2} Prize} University Undergraduate Scholarship (Top 30\%)
+
+Relative courses: Data Structures, Computer Networks, Database Systems, Object-Oriented Programming.
+
+\section{\faUsers\ Work / Project Experience}
+
+\datedsubsection{\textbf{Senior Software Engineer at  Daraz (Alibaba Group) Singapore}}{Oct. 2023 -- Apr. 2024}
+
+\setlength{\parindent}{1em}
+\begin{itemize}
+   
+    \item Leveraged MySQL and Redis to design and implement a scalable product-building platform, enabling real-time integration of hot product tags and personalized recommendations. Implemented cloud-native architecture to ensure high availability and scalability.
+    \item Replaced new user discounts with a Kubernetes-based promotion tag system using Spring Boot, improving system resilience and boosting sales by 15\%.
+     \item Optimized data synchronization with ScheduleX tasks, reducing refresh time from 24 hours to 1 hour and enhancing data consistency across cloud environments.
+    
+\end{itemize}
+
+%\datedsubsection{\textbf{Senior Software Engineer at  Daraz Hangzhou Private Limited}}{Oct. 2023 -- Jan. 2024}
+%\setlength{\parindent}{1em}
+
+%\begin{itemize}
+%\item Enhanced user experience and boosted sales 15\% in ``11.11" shopping event by replacing new user discounts with a flexible promotion tag system based on Kubernetes and Spring Boot in the Choice channel.
+%\end{itemize}
+
+\datedsubsection{\textbf{Software Engineer at Alibaba (Shenzhen) Technology Co., Ltd.}}{Jul. 2021 -- Jul. 2023}
+
+\setlength{\parindent}{1em}
+
+
+\textit{\textbf{\hspace{1em}Project: Product Delivery Platform for AliExpress BU}}
+% \datedsubsection{\textbf{Product Delivery Platform }}{Oct. 2022 -- now}
+\begin{itemize}
+%  \item Optimized activity scheduling by using Redis caching and refactored the activity interface to support batch calls, reduced the average service response time by 26\%.
+    \item Developed a flexible product filtering system using the strategy pattern with strong extensibility for price values and marketing strategies. Incorporated cloud-native best practices to reduce man-days from 4 to 1 for deployment.
+    \item Assumed ownership of the complete development lifecycle, spanning product ideation, design, implementation, testing, deployment, and monitoring. Collaborated extensively with cross-functional teams.
+    
+\end{itemize}
+
+\textit{\textbf{Project: Social Interactive Shopping (GroupBuy, Bargain) for AliExpress BU}}
+% \datedsubsection{\textbf{Social Interactive Shopping (GroupBuy, Bargain)}}{Jul. 2021 -- Sep. 2022}
+\begin{itemize}
+ \item Implemented mixed activities data based on cloud-native architecture, used Kafka and Redis to receive and cache items and activities. Obtained 150,000 new users in Bargain and achieved 1:7 sharing diffusion ratio.
+ \item Developed and Maintained the AliExpress site-wide sharing component configuration platform.
+ %, undertook large-scale marketing shopping festivals ``Double Eleven" and ``Black Friday" every year.
+
+\end{itemize}
+
+\datedsubsection{\textbf{Software Engineer  at vivo Mobile Communication (Shenzhen) Co., Ltd.}}{Apr. 2020 -- Jul. 2021}
+\begin{itemize}
+  \item Maintained and optimized the Android Wifi framework, improving network throughput and reliability by focusing on 802.11 protocol enhancements and Linux kernel optimizations.
+  \item Developed automated testing frameworks using Python to facilitate network throughput and functional testing across multiple devices, streamlining testing operations.
+\end{itemize}
+
+\datedsubsection{\textbf{Graduate Research Project at Northwestern Polytechnical University}}{Oct. 2018 -- Jul. 2019}
+
+%\setlength{\parindent}{1em}
+\textit{\textbf{\hspace{1em}Project: Location Preserve Blockchain System (Crowdchain)}}
+%\setlength{\parindent}{0em}
+
+\begin{itemize}
+  \item Developed Ethereum smart contracts to implement multiple scenarios of transfer functions, leveraged zero-knowledge proofs to achieve location privacy protection.
+  \item Utilized web3j to establish a connection with the Rinkeby network through an Infura hosted node.
+  \item Published paper as 1st author: ``Crowdchain: A location preserve anonymous payment system based on permissioned blockchain", In 2019 IEEE International Conference on Smart Internet of Things (SmartIoT).
+\end{itemize}
+
+
+%\section{\faTrophy\ Awards}
+%\datedline{\textit{\nth{2} Prize}~~Awarded in China Graduate Contest on Smart-city Technology and Creative Design}{Jul. 2018}
+%\datedline{\textit{\nth{2} Prize}~~Awarded in China Undergraduate Mathematical Contest in Modeling}{Oct. 2015}
+
+
+\section{\faCogs\ Skills / Interests}
+\begin{itemize}%[parsep=0.2ex]
+\item Skills: Java | Python | Redis | Kafka | MySQL | Alibaba Cloud | CI/CD | Kubernetes | Flink | SpringBoot
+%  \item Experienced in continuous deployment and delivery within a microservices architecture, leveraging Spring and Spring Boot to develop distributed internet systems.(融合到skills和前面项目经历)
+\item Interests: Reading | Basketball | Swimming | Lifelong learning
+\end{itemize}
+
+\end{document}
